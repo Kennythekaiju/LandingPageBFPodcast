@@ -24,3 +24,72 @@ body {
     background-color: #FFDB58 ;
 }
 
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  .button:hover {background-color: #800000}
+  
+  .button:active {
+    background-color: #800000;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }
+  .card:hover{
+    cursor: pointer;
+    background-color:#D3D3D3;
+
+  }
+  .appleMusicLink{
+    
+        /* Background pattern from Toptal Subtle Patterns */
+        background-image: url("https://media.istockphoto.com/vectors/white-fishes-on-navy-blue-background-seamless-pattern-vector-id1185842145?k=20&m=1185842145&s=612x612&w=0&h=dAvrRWHKGYtTHyOCP83Bu27bCdkRvMDm_EVjgs760qI=");
+        height: 600px;
+        width: 100%;
+     
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+    color: white;
+  }

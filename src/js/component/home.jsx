@@ -179,16 +179,41 @@ const Home = () => {
 			</div>
 			<div
 				style={{
-					background: "#000000",
+					display: "flex",
+					background: "#fc6a03",
 					maxWidth: "100%",
 					maxheight: "25em",
+					justifyContent: "center",
+					flexDirection: "column",
+					alignItems: "center"
 				}}
 				className="youTube">
+					<h2 style={{color: "#ffffff", marginTop: "5px"}}>Keep in Touch with the Gang</h2>
 				<img
-					style={{ margin: "auto" }}
-					src="https://yt3.ggpht.com/ytc/AKedOLQMIn2am39xfqbJIrg1VQk6--0JgDXIvRj0zlRd=s900-c-k-c0x00ffffff-no-rj"
+					style={{ marginTop: "15px",
+						maxWidth: "600px" }}
+					src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/adce8642-153c-46ae-886f-08a668835ea1/dexqy47-a9b9f2ba-0423-475a-9a63-caba25f7cf8e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FkY2U4NjQyLTE1M2MtNDZhZS04ODZmLTA4YTY2ODgzNWVhMVwvZGV4cXk0Ny1hOWI5ZjJiYS0wNDIzLTQ3NWEtOWE2My1jYWJhMjVmN2NmOGUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gRwQ7jQ83Hr5l-S3paF8AhL_2VMiL-T-RBcWGTYlK6Q"
 				/>
+			
+
+				<div className="subBtn">
+					<a href="https://www.youtube.com/c/BadFriends/featured">
+						<button className="button">Subscribe to Channel</button>
+					</a>
+				
+				</div>
+
 			</div>
+				<div className="appleMusicLink">
+				
+					<div class="container">
+					<h2 style={{color: "#ffffff", opacity:"100%", marginTop: "5px"}}>Daddy Why You Die?</h2>
+						<img src="https://yt3.ggpht.com/ytc/AKedOLQMIn2am39xfqbJIrg1VQk6--0JgDXIvRj0zlRd=s900-c-k-c0x00ffffff-no-rj"  style={{width:"100%"}}/>
+							<a href="https://music.apple.com/ma/album/daddy-why-you-die-single/1588418231">
+								<button class="btn">Listen Here</button>
+							</a>
+					</div>
+				</div>
 			</>
 		
 	);
